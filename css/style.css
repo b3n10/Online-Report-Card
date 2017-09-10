@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: sans;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  max-width: 900px;
+  margin: 10px auto;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.card-table:hover {
+  background: #fceb94;
+}
+
+.card-table:first-of-type:hover,
+.card-table:first-of-type {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #ccc;
+  color: #000;
+}
+
+.card-table div {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+  width: 145px;
+}
+
+.card-table input {
+  border: 1px solid #ccc;
+  font-size: 15px;
+  padding: 5px;
+  text-align: right;
+  width: 100%;
+}
+
+.card-table div:last-of-type input {
+  background: #b0adff;
+  color: #000;
+}
